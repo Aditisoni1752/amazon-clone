@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.item-container {
+    width: 300px;
+    margin: 10px;
+    margin-left: 45px;
+    margin-right: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    transition: box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.item-container:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.item-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.rating {
+    font-size: 14px;
+    color: #ffa41c;
+    /* Amazon's orange for ratings */
+    margin-bottom: 10px;
+}
+
+.company-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.item-name {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.current-price {
+    color: #b12704;
+    /* Amazon's red for price */
+    font-weight: bold;
+}
+
+.original-price {
+    color: #767676;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+.discount {
+    color: #007600;
+    /* Amazon's green for discounts */
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.delivery-date {
+    font-size: 13px;
+    color: #555;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.item-container:hover .delivery-date {
+    color: #b12704;
+    /* Highlight delivery date on hover */
+}

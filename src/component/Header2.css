@@ -1,0 +1,42 @@
+.header2 {
+    background-color: #232f2e;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header2 ul li {
+    display: flex;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.header2 ul div {
+    margin-top: 3px;
+    font-size: 27px;
+}
+
+.header2 ul div span {
+    font-size: 17px;
+}
+
+.header2 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1px 4px 1px 4px;
+}
+
+.div:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+}

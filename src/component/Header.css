@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    height: 80px;
+    width: 100px;
+    margin-left: 20px;
+}
+
+.Hcontainer {
+    background-color: #0f1111;
+    height: 80px;
+}
+
+.headerContainer {
+    height: 80px;
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.location {
+    font-size: 13px;
+    margin: 20px 0px 0px 30px;
+}
+
+.locationdelivering {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+span.location {
+    width: 20px;
+}
+
+.updatelocation {
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.searchBar {
+    width: 600px;
+    height: 40px;
+    display: flex;
+    border: 2px solid white;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 0px 35px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#searchall {
+    height: 40px;
+    width: 50px;
+    border: 2px solid white;
+    color: black;
+    font-size: 15px;
+}
+
+#searchbar {
+    height: 40px;
+    width: 530px;
+    border: 2px solid white;
+}
+
+#searchicon {
+    height: 40px;
+    width: 50px;
+    border: 2px solid rgb(218, 157, 73);
+    border-radius: 5px;
+    background-color: rgb(218, 157, 73);
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag img {
+    height: 15px;
+    width: 24px;
+    margin-bottom: 15px;
+    margin-top: 16px;
+}
+
+.flag select {
+    height: 28px;
+    background-color: #0f1111;
+    border: #0f1111;
+    color: white;
+}
+
+.sign-in {
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sign-in span {
+    font-size: 12px;
+}
+
+.sign-in div {
+    font-size: 16px;
+}
+
+.return {
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.return span {
+    font-size: 12px;
+}
+
+.return div {
+    font-size: 16px;
+}
+
+.cart {
+    color: white;
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.Cart {
+    font-size: 15px;
+    margin-left: -20px;
+}
+
+.a:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+}
